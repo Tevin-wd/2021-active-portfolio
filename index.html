@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <script src="https://kit.fontawesome.com/4736f7dcdf.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="./style.css" />
+   <title>Image slider</title>
+</head>
+
+<body>
+   <div class="home" id="home">
+      <nav>
+         <div class="logo">Tevin Evans</div>
+         <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+         </ul>
+      </nav>
+      <div id="intro">
+         <img class="profile-image" src="./img/2021-photo.jpg" alt="Profile Image" />
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae porro eos cupiditate molestiae modi,
+            quisquam, sequi sint consectetur error officiis, similique sunt! Ipsum ratione suscipit culpa tempore
+            voluptates, autem magnam.</p>
+      </div>
+   </div>
+   <hr id="projects">
+
+   <div class="projects-container">
+      <h2>Projects</h2>
+      <div class="projects">
+         <div class="project-card current">
+            <div class="project-content">
+               <img class="project-image" src="https://picsum.photos/250/200?random=1" alt="Project One" />
+               <h3>Project One (project title)</h3>
+               <p class="subtext">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero vero iusto officia quae id! Quidem
+                  incidunt maxime saepe error! Optio! Please click the link below to see how it works!
+               </p>
+               <p class="subtext-links">
+                  <a class="project-link" href="https://github.com/Tevin-wd">View Github</a>
+                  <a class="project-link" href="#">View Project</a>
+               </p>
+            </div>
+         </div>
+         <div class="project-card">
+            <img class="project-image" src="https://picsum.photos/250/200?random=2" alt="Project Two" />
+            <h3>Project Two(project title)</h3>
+            <p class="subtext">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero vero iusto officia quae id! Quidem
+               incidunt maxime saepe error! Optio! Please click the link below to see how it works!
+            </p>
+            <p class="subtext">
+               <a class="project-link" href="https://github.com/Tevin-wd">View Github</a>
+               <a class="project-link" href="#">View Project</a>
+            </p>
+         </div>
+         <div class="project-card">
+            <img class="project-image" src="https://picsum.photos/250/200?random=3" alt="Project Three" />
+            <h3>Project Three(project title)</h3>
+            <p class="subtext">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero vero iusto officia quae id! Quidem
+               incidunt maxime saepe error! Optio! Please click the link below to see how it works!
+            </p>
+            <div class="line"></div>
+            <p class="subtext">
+               <a class="project-link" href="https://github.com/Tevin-wd">View Github</a>
+               <a class="project-link" href="#">View Project</a>
+            </p>
+         </div>
+         <div class="project-card">
+            <img class="project-image" src="https://picsum.photos/250/200?random=4" alt="Project Four" />
+            <h3>Project Four(project title)</h3>
+            <p class="subtext">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero vero iusto officia quae id! Quidem
+               incidunt maxime saepe error! Optio! Please click the link below to see how it works!
+            </p>
+            <div class="line"></div>
+            <p class="subtext">
+               <a class="project-link" href="https://github.com/Tevin-wd">View Github</a>
+               <a class="project-link" href="#">View Project</a>
+            </p>
+         </div>
+         <div class="project-card">
+            <img class="project-image" src="https://picsum.photos/250/200?random=5" alt="Project Five" />
+            <h3>Project Five(project title)</h3>
+            <p class="subtext">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero vero iusto officia quae id! Quidem
+               incidunt maxime saepe error! Optio! Please click the link below to see how it works!
+            </p>
+            <div class="line"></div>
+            <p class="subtext">
+               <a class="project-link" href="https://github.com/Tevin-wd">View Github</a>
+               <a class="project-link" href="#">View Project</a>
+            </p>
+         </div>
+         <div class="project-card">
+            <img class="project-image" src="https://picsum.photos/250/200?random=6" alt="Project Six" />
+            <h3>Project Six(project title)</h3>
+            <p class="subtext">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero vero iusto officia quae id! Quidem
+               incidunt maxime saepe error! Optio! Please click the link below to see how it works!
+            </p>
+            <div class="line"></div>
+            <p class="subtext">
+               <a class="project-link" href="https://github.com/Tevin-wd">View Github</a>
+               <a class="project-link" href="#">View Project</a>
+            </p>
+         </div>
+      </div>
+   </div>
+   <div class="buttons">
+      <button id="prev"><i class="fas fa-arrow-left"></i></button>
+      <button id="next"><i class="fas fa-arrow-right"></i></button>
+   </div>
+
+
+   <hr id="contact">
+   <div class="contact-container">
+      <h2>Contact</h2>
+
+      <form action="https://formspree.io/f/xayalelz" method="POST">
+         <label>
+               Your Name:
+            <input type="name" placeholder="Enter your Name" required>
+         </label>
+         <label>
+            Your Email:
+            <input type="email" name="_replyto"  placeholder="Enter your Email Address" required>
+         </label>
+         <label>
+            Your Message:
+            <textarea name="message" placeholder="How can I help you?"></textarea>
+         </label>
+         <div class="form-buttons">
+            <input type="reset">
+            <button type="submit">Send</button>
+         </div>
+      </form>
+
+      <!-- <form action="https://formspree.io/f/xayalelz" method="POST">
+         <input type="hidden" name="_subject" value="Incoming message from Website!">
+         <br>
+         <input type="number" placeholder="Enter your Phone Number" name="phone-number">
+         <br>
+         <input type="hidden" name="_next" value="https://blankblankblank/pages/thankyou.html">
+         <input type="text" name="name" size="500" placeholder="How can I help you?" required>
+         <br>
+         <div class="form-buttons">
+            <button type="submit">Send</button>
+         </div>
+      </form> -->
+
+
+
+      <a href="#home">
+         <button id="up-arrow"><i class="fas fa-arrow-up"></i></button>
+      </a>
+   </div>
+
+   <script src="./main.js"></script>
+</body>
+
+</html>
